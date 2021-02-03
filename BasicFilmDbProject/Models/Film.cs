@@ -8,7 +8,7 @@ namespace BasicFilmDbProject.Models
     public class Film
 
     {
-        [Key]
+        [Key]                                       // Primary Key 
         public int FilmID { get; set; }
 
         [Required]
